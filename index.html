@@ -82,11 +82,12 @@
         <section class="sub-section-three" id="contact-me">
             <h2>Get in touch and drop me a line</h2>
         <div class="contact-box">
-            <form>
-                <input type="text" class="input-field" placeholder="Name"  required>
-                <input type="text" class="input-field" placeholder="Email"  required>
-                <input type="text" class="input-field" placeholder="Subject"  required>
-                <textarea type="text" class="textarea-field input-field" placeholder="Your Message" required>
+            <form  action="https://formspree.io/f/xzbyvbnr"
+            method="POST">
+                <input type="text" name="name" class="input-field" placeholder="Name"  required>
+                <input type="text" name="email" class="input-field" placeholder="Email"  required>
+                <input type="text" name="subject" class="input-field" placeholder="Subject"  required>
+                <textarea type="text" name="your-message" class="textarea-field input-field" placeholder="Your Message" required>
                 </textarea>
      
      <button type="button" class="btn">Submit</button>
